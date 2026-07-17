@@ -1,15 +1,15 @@
 # Hey, I'm Austin 👋
 
-I'm an AI Automation Engineer who builds workflow systems that eliminate manual operations for businesses. I specialize in connecting AI models, APIs, and automation platforms into end-to-end systems that actually ship.
+I'm an AI Systems Architect specializing in **ecommerce & DTC brands** — I build AI-driven operating systems that replace manual ops across support, inventory, supplier, and reporting workflows. I connect AI models, APIs, and automation platforms into end-to-end systems that ship and run in production.
 
 ---
 
 ## 🔧 What I Build
 
-- **AI-powered workflow automation** — multi-step agent pipelines triggered by email, schedule, webhooks, or user input
-- **Full-stack web applications** — front-end to back-end with auth, payments, and database integration
-- **Content & media automation** — AI-generated content pipelines from prompt to published output
-- **Lead generation & CRM systems** — intake, qualification scoring, and automated routing
+- **Ecommerce & DTC AI operating systems** — event-driven modules for Shopify ingestion, inventory ops, and financial rollups
+- **AI-powered workflow automation** — multi-step agent pipelines triggered by email, schedule, webhooks, or store events
+- **Support & supplier automation** — inbox monitoring, AI-drafted responses, and outreach pipelines built for ecommerce ops
+- **Full-stack web applications** — front-end to back-end with auth, payments, and database integration for DTC brands
 
 ---
 
@@ -56,4 +56,4 @@ I'm an AI Automation Engineer who builds workflow systems that eliminate manual 
 
 ---
 
-*Currently open to freelance projects and remote full-time roles in AI automation and workflow engineering.*
+*Currently open to freelance projects and remote full-time roles in AI systems architecture for ecommerce & DTC brands.*
