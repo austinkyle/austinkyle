@@ -1,59 +1,46 @@
-# Hey, I'm Austin 👋
+# Austin Kyle — Forward-Deployed Engineer
 
-I'm an AI Systems Architect specializing in **ecommerce & DTC brands** — I build AI-driven operating systems that replace manual ops across support, inventory, supplier, and reporting workflows. I connect AI models, APIs, and automation platforms into end-to-end systems that ship and run in production.
+My advantage is deep business and process understanding: knowing how work gets done, where it gets stuck, and what is worth building. I engineer business systems by choosing the right combination of deterministic software, AI, and human judgment.
 
----
+AI gives me execution leverage. Business understanding sets the direction.
 
-## 🔧 What I Build
+## How I work
 
-- **Ecommerce & DTC AI operating systems** — event-driven modules for Shopify ingestion, inventory ops, and financial rollups
-- **AI-powered workflow automation** — multi-step agent pipelines triggered by email, schedule, webhooks, or store events
-- **Support & supplier automation** — inbox monitoring, AI-drafted responses, and outreach pipelines built for ecommerce ops
-- **Full-stack web applications** — front-end to back-end with auth, payments, and database integration for DTC brands
+1. **Observe the real work.** Map the people, tools, handoffs, exceptions, and constraints before proposing a system.
+2. **Route each step.** Use software for rules and calculations, AI for bounded interpretation and drafting, and people for accountable decisions.
+3. **Design for failure.** Make duplicate work, missing data, bad output, outages, and recovery visible. Define fallbacks and escalation owners.
+4. **Verify against real historical examples.** Reconcile with source records and operator judgment before rollout. Synthetic fixtures prove engineering behavior; they do not establish business acceptance.
+5. **Measure business value.** Establish a baseline, track the change, and include operating costs. Separate recovered capacity, realized savings, and financial exposure.
 
----
+This is my delivery method. The projects below demonstrate its engineering choices; their case studies distinguish implemented behavior from business validation still to be done.
 
-## 🚀 Featured Projects
+## Selected engineering work
 
-| Project | What it does | Stack |
-|---|---|---|
-| [Conduit-OS](https://github.com/austinkyle/Conduit-OS) | Event-driven AI operating system for high-growth DTC brands: four shipped modules for Shopify ingestion, support automation, inventory ops, and financial rollups | Claude API · n8n · Supabase |
-| [AI Executive Daily Brief](https://github.com/austinkyle/ai-executive-daily-brief) | Deterministic-analytics-first AI executive daily brief for Shopify DTC brands, with a zero-credential demo mode | Claude API · Shopify API |
-| [UGC Ad Automation](https://github.com/austinkyle/ugc-ad-automation) | Telegram photo + caption → finished multi-scene UGC-style video ad, fully automated | n8n · GPT-4o/4.1 · fal.ai · Veo3 |
-| [Supplier Relationship Builder](https://github.com/austinkyle/suppliers-relationship-builder) | Automated supplier outreach pipeline: discovers contacts, generates AI emails, manages follow-up sequences | n8n · Claude API · Google Sheets |
-| [AI Customer Support Agent](https://github.com/austinkyle/ai-customer-support-agent) | Monitors Gmail, classifies support questions against a knowledge base, drafts replies for human review | n8n · GPT-4o · Gmail API |
-| [The Conductor](https://github.com/austinkyle/The-Conductor) | OpenAI-compatible transparent proxy with two-layer caching, multi-provider failover, per-key budget enforcement, and a live observability dashboard | Node.js · REST APIs |
+| Project | The business-system judgment it demonstrates | Evidence and scope |
+| --- | --- | --- |
+| [Conduit-OS](https://github.com/austinkyle/Conduit-OS) | Reliable commerce event handling before downstream automation; deterministic fraud rules, replay, role boundaries, and read-only financial queries | [FDE case study](https://github.com/austinkyle/Conduit-OS/blob/main/FDE-CASE-STUDY.md) · local prototype and historical simulator results |
+| [Executive Daily Brief](https://github.com/austinkyle/ai-executive-daily-brief) | Software calculates findings; optional AI narrates; executives decide what to investigate | [FDE case study](https://github.com/austinkyle/ai-executive-daily-brief/blob/master/FDE-CASE-STUDY.md) · fictional data, deterministic fallback, assumptions-based value model |
+| [Public Companies Data Scraper](https://github.com/austinkyle/public-companies-data-scraper) | Deterministic SEC/XBRL normalization, bounded AI screening, and analyst due diligence | [FDE case study](https://github.com/austinkyle/public-companies-data-scraper/blob/main/FDE-CASE-STUDY.md) · saved public filing fixtures; extracted figures remain unverified |
+| [Customer Support Agent](https://github.com/austinkyle/ai-customer-support-agent) | AI classifies and drafts; a person checks policy, handles exceptions, and sends the response | [FDE case study](https://github.com/austinkyle/ai-customer-support-agent/blob/main/FDE-CASE-STUDY.md) · draft-only n8n prototype; integration acceptance remains open |
+| [The Conductor](https://github.com/austinkyle/The-Conductor) | Deterministic caching, provider failover, usage accounting, and explicit latency/correctness tradeoffs | [FDE case study](https://github.com/austinkyle/The-Conductor/blob/master/FDE-CASE-STUDY.md) · historical deployed benchmarks with mock providers and documented limits |
+| [CleanWrite](https://github.com/austinkyle/clean-write) | Local document ownership, deterministic analysis, and optional AI suggestions that require review before application | [FDE case study](https://github.com/austinkyle/clean-write/blob/main/FDE-CASE-STUDY.md) · local product implementation with replacement-safety tests |
 
----
+These are inspectable engineering projects, not claims of client deployment, completed shadowing, production adoption, or measured commercial ROI.
 
-## 🛠️ Tech Stack
+## Kylix: Diagnose → Build → Operate
 
-**AI & Automation**
-`Claude API` `n8n` `LLM Prompt Engineering` `MCP` `Trigger.dev`
+- **Paid Systems Opportunity Audit:** understand the current workflow, establish the baseline, and produce a prioritized systems roadmap.
+- **Build & Implementation:** scope, engineer, verify, and introduce the selected system.
+- **Systems Management:** monitor, maintain, and improve the system against agreed operational and business measures.
 
-**Backend & Infrastructure**
-`Supabase` `Vercel` `GitHub Actions` `REST APIs` `.env / Secrets Management`
+A free fit call is an initial conversation; it is separate from the paid audit. [KylixAI](https://kylixai.com) · [Website source](https://github.com/austinkyle/kylixai-website)
 
-**Payments & Auth**
-`Stripe` `Supabase Auth`
+## Engineering toolkit
 
-**Frontend**
-`HTML/CSS/JS` `React`
+TypeScript · Python · SQL · Next.js/React · FastAPI/Fastify · Postgres/Supabase · SQLite · Redis/BullMQ · n8n · Trigger.dev · API integrations · structured model outputs · automated tests
 
----
+## Connect
 
-## 📜 Credentials
+[LinkedIn](https://www.linkedin.com/in/austinkyle/) · [Email](mailto:theaustinkyle@proton.me)
 
-- **AI Fluency: Frameworks & Foundations** — Anthropic Academy
-- **AI Architect Certification** *(in progress)* — Anthropic Academy
-
----
-
-## 📬 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-austinkyle-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/austinkyle/)
-[![Email](https://img.shields.io/badge/Email-theaustinkyle@proton.me-6D4AFF?style=flat&logo=protonmail&logoColor=white)](mailto:theaustinkyle@proton.me)
-
----
-
-*Currently open to freelance projects and remote full-time roles in AI systems architecture for ecommerce & DTC brands.*
+Open to Forward-Deployed Engineering roles and scoped business systems engagements.
