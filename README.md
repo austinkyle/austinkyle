@@ -1,5 +1,4 @@
-# Austin Kyle — Forward-Deployed Engineer
-
+# Austin Kyle — AI Architect/Forward Deployed Engineer
 My advantage is deep business and process understanding: knowing how work gets done, where it gets stuck, and what is worth building. I engineer business systems by choosing the right combination of deterministic software, AI, and human judgment.
 
 AI gives me execution leverage. Business understanding sets the direction.
